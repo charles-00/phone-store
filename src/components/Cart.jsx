@@ -30,7 +30,7 @@ class Cart extends Component {
                 </div>
                 <div className="row">
                   <div className="col-10 ml-auto">
-                    <CartTotal value={value} />
+                    <CartTotal value={value} history={this.props.history} />
                   </div>
                 </div>
               </>
